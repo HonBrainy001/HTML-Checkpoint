@@ -404,6 +404,64 @@ footer{
 }
 /*-------------//Footer Ends---------------*/
 
+/*---------------Resume styling-------------*/
+.container-2{
+      width: 100%;
+      padding: 35px 10%;
+}
+
+main .row{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+}
+
+.col header .title{
+      font-family: helvetica;
+      color: white;
+      padding: 0px 0px 20px;
+}
+
+.col .contents{
+      padding: 0px 30px;
+      border-left: 2px solid #bababa;
+}
+
+.col .contents .box{
+      position: relative;
+      padding: 20px;
+      border: 1px solid #eaeaea;
+      cursor: pointer;
+      color: black;
+      background-color: orange;
+      transition: all 0.4s;
+      margin-bottom: 20px;
+}
+
+.col .contents .box:hover{
+      box-shadow: 0px 3px 12px 0px #ccc;
+      border: 1px solid transparent;
+}
+
+.box h4{
+      position: relative;
+      color: brown;
+}
+
+.box h3{
+      font-size: 19px;
+      padding: 10px 0px 6px;
+      font-family: helvetica;
+      color: white;
+}
+
+.box p{
+      line-height: 1.2;
+      font-size: 17px;
+}
+
+/*------------Resume Styling Ends*------------/
+
 
 
 
